@@ -3,7 +3,7 @@ require_once('include/conexion.php');
 session_start();
 $errores        = $_SESSION['errores'];
 $personalizada  = 0;
-$intentos       = 3;
+$intentos       = 2;
 $completos      = "";
 $mensaje        = "";
 $sesioniniciada = false;
