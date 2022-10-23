@@ -196,7 +196,7 @@
                             <p>Clientes favorecidos</p>
                         </div>
                         <div class="single-two">
-                            <span>4</span>
+                            <span>5</span>
                             <p>Modos de autenticación</p>
                         </div>
                     </div>
@@ -271,11 +271,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cases">
                             <div class="cases-img">
-                                <img src="assets/img/gallery/authentification-form.jpg" alt="" height=350px>
+                                <img src="assets/img/facial.jpg" alt="" height=350px>
                             </div>
                             <div class="cases-caption">
-                                <h3><a href="#">Formulario Inteligente</a></h3>
-                                <p>Formulario</p>
+                                <h3><a href="#">Reconocimiento facial adaptativo</a></h3>
+                                <p>¿Te estás haciendo viejo? No hay problema, estamos al tanto.</p>
                                 <!-- Progress Bar -->
                                 <div class="single-skill mb-15">
                                     <div class="bar-progress">
@@ -288,7 +288,7 @@
                                     </div>
                                 </div>
                                 <div class="prices">
-                                    <p><span>Ingresar</span></p>
+                                    <p><span>Para auntenticarte con tu rostro forever and ever</span></p>
                                 </div>
                             </div>
                         </div>

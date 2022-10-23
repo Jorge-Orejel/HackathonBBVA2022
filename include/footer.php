@@ -43,9 +43,8 @@
                                    <h4>Prototipo</h4>
                                    <ul>
                                        <li><a href="https://mototli.com/hackathonBBVA2022/autenticacionprevia/loginbanco.php">login</a>
-                                       <!--<li><a href="casa.php">2</a></li>
-                                       <li><a href="automivil.php">3</a></li>
-                                       <li><a href="inteligente.php">4</a></li>-->
+                                       <li><a href="https://scribehow.com/shared/Autenticacion_Previa__AJhd8RUNSh-ALCemh6ZhNw" target="_blank">Instructivo</a></li>
+                                       
                                    </ul>
                                </div>
                            </div>
