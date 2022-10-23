@@ -42,8 +42,8 @@
                                <div class="footer-tittle">
                                    <h4>Prototipo</h4>
                                    <ul>
-                                       <li><a href="https://mototli.com/hackathonBBVA2022/autenticacionprevia/loginbanco.php">login</a>
-                                       <li><a href="https://scribehow.com/shared/Autenticacion_Previa__AJhd8RUNSh-ALCemh6ZhNw" target="_blank">Instructivo</a></li>
+                                       <li><a href="https://mototli.com/hackathonBBVA2022/autenticacionprevia/loginbanco.php">Acceso al Prototipo</a>
+                                       <li><a href="https://scribehow.com/shared/Autenticacion_Previa__AJhd8RUNSh-ALCemh6ZhNw" target="_blank">Instructivo del prototipo</a></li>
                                        
                                    </ul>
                                </div>
