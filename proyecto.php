@@ -135,7 +135,7 @@
                             </a>
                             </div>
                             <div class="cat-cap">
-                                <h5>Usuarios para prueba</h5>
+                                <h5><a href="usuarios.csv" target="_blank">Usuarios para pruebas</a></h5>
                             </div>
                         </div>
                     </div>
@@ -159,7 +159,7 @@
                             </a>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="#">GitHub</a></h5>
+                                <h5><a href="https://github.com/Jorge-Orejel/HackathonBBVA2022" target="_blank">GitHub</a></h5>
                             </div>
                         </div>
                     </div>
