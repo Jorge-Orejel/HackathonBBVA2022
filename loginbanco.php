@@ -3,7 +3,7 @@ require_once('include/conexion.php');
 session_start();
 $errores        = $_SESSION['errores'];
 $personalizada  = 0;
-$intentos       = 2;
+$intentos       = 3;
 $completos      = "";
 $mensaje        = "";
 $sesioniniciada = false;
@@ -12,11 +12,21 @@ if(isset($_POST['login'])){
 
   $usuario        = $_POST['correo'];
   $problemavision = 0;
+  $adultomayor = 0;
 
 	if($errores>1){
         $necesario = 0;
         $sql       = "SELECT * FROM transacciones_clientes WHERE NU_CTE_COD LIKE '$usuario'";
         $result    = mysqli_query($conexion,$sql);
+        $edadsql="SELECT edad as edad FROM clientes WHERE NU_CTE_COD LIKE '$usuario'";
+        $edadconsult = mysqli_query($conexion,$edadsql);
+        $edadarray = mysqli_fetch_array($edadconsult);
+        $edad = $edadarray['edad'];
+        if($edad > 69){
+                $necesario  = $necesario + 3; 
+                $adultomayor = 1;
+            }
+            
         while($mostrar=mysqli_fetch_array($result)){
               $IDss       = $mostrar['ID'];
               $afiliacion = $mostrar['NU_AFILIACION'];
@@ -25,12 +35,17 @@ if(isset($_POST['login'])){
               $giroarray  = mysqli_fetch_array($girocons);
               $giro       = $giroarray['giro'];
               //$subgiro = $giroarray['giro'];
+              
+            
           
           
           if ($giro == "5976" || $giro == "8021" || $giro == "8031" || $giro == "8041" || $giro == "8042" || $giro == "8043" || $giro == "8049" || $giro == "8351" || $giro == "8011"){
               
               if($giro == "8042" || $giro == "8043"){
                   $problemavision = $problemavision + 1;
+              }
+               if($giro == "5976"){
+                  $problemaorto = $problemaorto + 1;
               }
               
               $sqla       = "SELECT NB_SUBGIRO as giro FROM catalogo_giros WHERE NU_AFILIACION LIKE '$afiliacion'";
@@ -54,7 +69,15 @@ if(isset($_POST['login'])){
       }
       if($problemavision >= 2){
           $visiondeficiente = 1;
-          $mensaje         .= "posible problema de vision detectado<br>";
+          $mensaje         .= "Posible problema de vision detectado<br>";
+      }
+      if($problemaorto >= 2){
+          $movideficiente = 1;
+          $mensaje         .= "Posible problema ortopedico (movilidad) detectado<br>";
+      }
+      if($adultomayor == 1){
+          $visiondeficiente = 1;
+          $mensaje         .= "Adulto mayor detectado<br>";
       }
           
     }

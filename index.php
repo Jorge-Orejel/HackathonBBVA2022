@@ -55,10 +55,10 @@
                             <div class="col-xl-8 col-lg-8 col-md-8 col-sm-10">
                                 <div class="hero__caption">
                                     <h1 data-animation="fadeInUp" data-delay=".2s">Autenticación Previa</h1>
-                                    <P data-animation="fadeInUp" data-delay=".4s">Rompamos las barreras, <br>todos llendo hacia  la misma dirección.<br><br><br></P>
+                                    <P data-animation="fadeInUp" data-delay=".4s">Rompamos las barreras, <br>todos llendo hacia  la misma dirección.<br><br></P>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn">
-                                        <a href="calculadoracasa_CO2.php" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Pongamos fin a las barreras</a>
+                                        <a href="proyecto.php" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Pongamos fin a las barreras</a>
                                     </div>
                                 </div>
                             </div>
@@ -75,7 +75,7 @@
                                     <P data-animation="fadeInUp" data-delay=".4s">Reto<br>Autenticación para todos</P>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn">
-                                        <a href="calculadoraauto_CO2.php" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Rompamos las barreras</a>
+                                        <a href="proyecto.php" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Rompamos las barreras</a>
                                     </div>
                                 </div>
                             </div>
@@ -92,7 +92,7 @@
                                     <P data-animation="fadeInUp" data-delay=".4s">antes que los demás, aprovecha los privilegios</P>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn">
-                                        <a href="wikiverde.php" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Sé parte del proyecto</a>
+                                        <a href="loginbanco.php" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">ir al Demo</a>
                                     </div>
                                 </div>
                             </div>
@@ -105,7 +105,7 @@
             <div class="video-area d-flex align-items-center justify-content-center">
                 <div class="video-wrap position-relative">
                     <div class="video-icon" >
-                        <a class="popup-video btn-icon" href="https://youtu.be/kEl2X_pe2ak"><i class="fas fa-play"></i></a>
+                        <a class="popup-video btn-icon" href="https://www.youtube.com/watch?v=kEl2X_pe2ak"><i class="fas fa-play"></i></a>
                     </div>
                 </div>
             </div>
@@ -196,7 +196,7 @@
                             <p>Clientes favorecidos</p>
                         </div>
                         <div class="single-two">
-                            <span>50</span>
+                            <span>4</span>
                             <p>Modos de autenticación</p>
                         </div>
                     </div>
@@ -250,7 +250,7 @@
                             </div>
                             <div class="cases-caption">
                                 <h3><a href="#">Personalización de autenticación</a></h3>
-                                <p>Conoce la huella de carbono de tu auto según tu tipo de gasolina y uso que le das.</p>
+                                <p>Eres tú, es tú autenticación, es cómo tú elijas.</p>
                                 <!-- Progress Bar -->
                                 <div class="single-skill mb-15">
                                     <div class="bar-progress">
@@ -263,7 +263,7 @@
                                     </div>
                                 </div>
                                 <div class="prices">
-                                    <p><span>Huella de carbono 200,000</span></p>
+                                    <p><span>Para cualquier plataforma o servicio</span></p>
                                 </div>
                             </div>
                         </div>
