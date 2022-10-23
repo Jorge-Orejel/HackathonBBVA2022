@@ -1,0 +1,16 @@
+{
+    "name": "mototli/huellaxoxoktli",
+    "description": "Proyecto Autentificacion Previa - hackaton2022 BBVA",
+    "type": "project",
+    "require": {
+        "aws/aws-sdk-php": "^3.0@dev",
+        "picqer/php-barcode-generator": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Motolli",
+            "email": "correo@motolli.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
